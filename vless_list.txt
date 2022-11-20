@@ -1,0 +1,2 @@
+vless://YourUUID@address:443?encryption=none&security=tls&type=ws&host=YourHost&path=YourPath#YourNode-IPADDR
+vless://YourUUID@address:443?encryption=none&security=tls&type=ws&host=YourHost&path=YourPath#YourNode-IPADDR
