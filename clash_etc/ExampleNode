@@ -1,0 +1,15 @@
+  - name: YourNode-ADDRESS
+    server: IPADDR
+    port: 443
+    type: vmess
+    uuid: 00000000-0000-0000-0000-000000000000
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /path 
+      headers:
+        Host: xxx.example.com
+    udp: true
