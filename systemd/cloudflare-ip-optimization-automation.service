@@ -1,0 +1,7 @@
+[Unit]
+Description=Cloudflare CDN Based Proxy Optimization Automation Service
+After=network.target nss-lookup.target
+
+[Service]
+NoNewPrivileges=true
+ExecStart=
