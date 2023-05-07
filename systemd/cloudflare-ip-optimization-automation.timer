@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloudflare CDN Based Proxy Optimization Automation Timer
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=24h
+OnCalendar=Fri *-*-* 18:00:00
+Unit=cloudflare-ip-optimization-automation.service
+
+[Install]
+WantedBy=multi-user.target
