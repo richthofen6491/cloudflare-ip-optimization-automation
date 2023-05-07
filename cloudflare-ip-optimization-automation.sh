@@ -130,5 +130,5 @@ s3cmd put clash_etc/*.yml s3://proxy-subscription --acl-public
 
 
 
-sleep 3600
+sleep 604800
 done
