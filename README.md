@@ -34,6 +34,8 @@
 
 添加丢包数量限制
 
+添加Containerfile或者Dockerfile并且提供Docker.io或者Quay.io的容器镜像
+
 ## 注意事项
 
 安全问题：如果可以尽量不要使用Clash for Windows这种东西，可能会有潜在的安全风险。
